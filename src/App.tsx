@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Proyectos from "./Proyectos";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -31,7 +32,10 @@ function App() {
       <footer className="mt-10 text-gray-400">
         © {new Date().getFullYear()} Xyntra. All rights reserved.
       </footer>
+
+      
     </div>
+    
   );
 }
 
